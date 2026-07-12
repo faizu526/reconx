@@ -1,0 +1,16 @@
+# ReconX v3 — Core Engine
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+dnspython>=2.6.0          # dns.resolver — Module 6 (DNS records)
+
+# ReconX GUI (optional — only needed for reconx_gui.py)
+# tkinter is part of Python stdlib; on some distros install separately:
+#   Ubuntu/Debian: sudo apt install python3-tk
+#   Fedora:        sudo dnf install python3-tkinter
+#   Arch:          sudo pacman -S tk
+
+# Optional — enhances HTML report rendering in browser
+# (no install needed, report is self-contained HTML)
+
+# Dev / testing
+pytest>=8.0.0
